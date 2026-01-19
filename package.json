@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/0115/q1.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/giv-dev/training-logic#readme",
   "dependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }
 }
